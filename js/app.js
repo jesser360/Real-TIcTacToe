@@ -28,7 +28,7 @@ $(document).ready(function() {
       }
       counter++;
     } else {
-      alert("already clicked");
+      // alert("already clicked");
     }
       clickedBox[0] = true;
       tie(clickedBox);
@@ -47,7 +47,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[1] = true;
     tie(clickedBox);
@@ -67,7 +67,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[2] = true;
     tie(clickedBox);
@@ -87,7 +87,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[3] = true;
     tie(clickedBox);
@@ -106,7 +106,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[4] = true;
     tie(clickedBox);
@@ -125,7 +125,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[5] = true;
     rowFull();
@@ -143,7 +143,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[6] = true;
     tie(clickedBox);
@@ -162,7 +162,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[7] = true;
     tie(clickedBox);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }
     counter++;
   } else {
-    alert("already clicked");
+    // alert("already clicked");
   }
     clickedBox[8] = true;
     tie(clickedBox);
