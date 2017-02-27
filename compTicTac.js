@@ -231,6 +231,7 @@ $('#reset').on('click', function resetBoard () {
     scorboard();
 
 });
+
 var checkBox0 = function(){
   if(($('box1').is('.oStyle') && $('box2').is('.oStyle')) || ($('box6').is('.oStyle') && $('box3').is('.oStyle')) || ($('box4').is('.oStyle') && $('box8').is('.oStyle'))) {
     $('#box0').append('<p>O</p>').addClass('oStyle');
@@ -408,7 +409,7 @@ var diagFull = function (){
   }
  }
 var scorboard = function(){
-  $('.winCounter').empty().append(player1 + "s Score: " + p1count + "      |      " + " Computers Score: " + compCount)
+  $('.winCounter').empty().append(player1 + "s Score: " + p1count + " | " + " Computers Score: " + compCount)
 }
 var tie = function(clickedBox){
   if(clickedBox.includes(false) === false) {

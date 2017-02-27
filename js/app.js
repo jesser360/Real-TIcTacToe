@@ -256,16 +256,16 @@ var diagFull = function (){
   if (($('#box1').is('.xStyle') && $('#box5').is('.xStyle') && $('#box9').is('.xStyle')) || ($('#box3').is('.xStyle') && $('#box5').is('.xStyle') && $('#box7').is('.xStyle'))) {
     $('.winAlert').empty().append(player1 + " is the winner!");
     $('.xStyle').addClass('hilite');
+    p1count += 1;
     winner = true;
     p1 = true;
-    p1count += 1;
     cat = false;
   } else if (($('#box1').is('.oStyle') && $('#box5').is('.oStyle') && $('#box9').is('.oStyle')) || ($('#box3').is('.oStyle') && $('#box5').is('.oStyle') && $('#box7').is('.oStyle'))) {
     $('.winAlert').empty().append(player2 + ' is the winner!');
     $('.oStyle').addClass('hilite');
+    p2count += 1;
     winner = true;
     p2 = true;
-    p2count += 1;
     cat = false;
   }
  }
