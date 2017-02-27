@@ -1,0 +1,51 @@
+#board {
+  margin-top: 10px;
+}
+
+.box {
+  border: 1px solid black;
+  height: 150px;
+}
+
+.xStyle{
+  font-size: 125px;
+  color:red;
+  text-shadow: 2px 2px 3px grey;
+}
+.oStyle{
+  font-size: 125px;
+  color:green;
+  text-shadow: 2px 2px 3px grey;
+
+}
+#reset{
+  text-shadow: 5px 5px 8px grey;
+  font-size: 15px;
+}
+
+.winAlert{
+  font-size: 30px;
+  color: purple;
+}
+
+.turn{
+  font-size: 25px;
+  color: red;
+}
+.yellow{
+  background-color: black;
+}
+.purple{
+  background-color: purple;
+}
+.winCounter{
+  font-size: 20px;
+}
+.hilite{
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+-webkit-transition: 500ms linear 0s;
+-moz-transition: 500ms linear 0s;
+-o-transition: 500ms linear 0s;
+transition: 500ms linear 0s;
+outline: 0 none;
+}

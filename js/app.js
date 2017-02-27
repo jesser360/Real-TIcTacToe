@@ -232,7 +232,7 @@ $('#reset').on('click', function resetBoard () {
       p2count += 1;
       winner = true;
       cat = false;
-      scorboard();
+      // scorboard();
     }
   }
 var colFull = function (){
